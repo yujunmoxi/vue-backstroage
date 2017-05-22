@@ -1,4 +1,4 @@
->一个 Vue + nodejs +MongoDB 后台管理系统。到现在大概5天的时间，先写个总结。
+>一个 Vue + nodejs +MongoDB 后台管理系统。
 
 
 >Vue负责前端页面的展示，路由功能交给Vue-router。
