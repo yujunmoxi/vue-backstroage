@@ -16,7 +16,7 @@ var article = require('./routes/article');
 var comment = require('./routes/comment');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/user'); //连接地址
+mongoose.connect('mongodb://localhost:27017/blog'); //连接地址
 
 var db = mongoose.connection;
 
