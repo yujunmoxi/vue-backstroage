@@ -71,12 +71,12 @@ export default {
             var token = JSON.parse(localStorage.getItem('access_token')) || '';
             if(token.time){
                 if(token.time < new Date().getTime()){
-                    return login = false;
+                    return login = true;
                 }else if(token.time > new Date().getTime()){
                     return login = true;
                 }
             }
-            return login = false;       
+            return login = true;       
         },
         iconSize() {
             return this.spanLeft === 5 ? 14 : 30;
