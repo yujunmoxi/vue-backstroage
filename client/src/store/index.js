@@ -7,7 +7,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state:{
-        login:true,
+        login:false,
         currentName:'',
         menu:[
             {name:'user',icon:'ios-navigate',title:'用户管理'},
